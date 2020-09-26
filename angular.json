@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gantt-canvas"
+    }
+  },
+  "defaultProject": "gantt-canvas",
+  "cli": {
+    "analytics": false
+  }
 }

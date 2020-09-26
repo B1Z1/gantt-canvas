@@ -1,0 +1,20 @@
+.gantt-scene {
+  &__canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  &__scroll-container {
+    position: relative;
+    overflow: auto;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  &__scroll-target {
+    position: relative;
+  }
+}

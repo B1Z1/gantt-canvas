@@ -1,0 +1,12 @@
+<div class="gantt-scene">
+  <canvas #canvasElement
+          [width]="width"
+          [height]="height"
+          class="gantt-scene__canvas"></canvas>
+  <div #scrollContainer
+       class="gantt-scene__scroll-container">
+    <div [style.width]="fullWidth + 'px'"
+         [style.height]="fullHeight + 'px'"
+         class="gantt-scene__scroll-target"></div>
+  </div>
+</div>

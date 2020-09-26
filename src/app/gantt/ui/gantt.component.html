@@ -1,0 +1,10 @@
+<app-gantt-scene [width]="1600"
+                 [height]="768">
+  <app-gantt-bar *ngFor="let node of nodes"
+                 [id]="node.getId()"
+                 [coords]="node.getCoords()"
+                 [color]="node.getColor()"
+                 [width]="node.getWidth()"
+  >
+  </app-gantt-bar>
+</app-gantt-scene>
